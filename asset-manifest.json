@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CV/static/css/main.c6697cbf.css",
-    "main.js": "/CV/static/js/main.b90345cf.js",
+    "main.js": "/CV/static/js/main.39a6a9e8.js",
     "static/js/787.5480e000.chunk.js": "/CV/static/js/787.5480e000.chunk.js",
     "static/media/bg2.jpg": "/CV/static/media/bg2.5c08f8ab2386d11137bc.jpg",
     "static/media/wiewior.jpg": "/CV/static/media/wiewior.1a55511101e5c6400e81.jpg",
@@ -11,11 +11,11 @@
     "static/media/PrzeplywSterowania.png": "/CV/static/media/PrzeplywSterowania.ee2e7d1f90a6c8cdb467.png",
     "index.html": "/CV/index.html",
     "main.c6697cbf.css.map": "/CV/static/css/main.c6697cbf.css.map",
-    "main.b90345cf.js.map": "/CV/static/js/main.b90345cf.js.map",
+    "main.39a6a9e8.js.map": "/CV/static/js/main.39a6a9e8.js.map",
     "787.5480e000.chunk.js.map": "/CV/static/js/787.5480e000.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c6697cbf.css",
-    "static/js/main.b90345cf.js"
+    "static/js/main.39a6a9e8.js"
   ]
 }
