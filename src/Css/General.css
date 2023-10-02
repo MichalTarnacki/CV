@@ -1,0 +1,73 @@
+.flipImage {transition: all .5s ease-in-out}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
+
+.bg  {
+    background-image: url('/src/assets/bg2.jpg');
+    background-position: center center;
+    background-size: cover;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+
+
+
+
+
+}
+.bgVertical {
+          -webkit-animation: zoominVertical  50s infinite alternate;
+        animation: zoominVertical  50s infinite alternate;
+}
+
+.bgHorizontal {
+        animation: zoominHorizontal 50s infinite alternate;
+        -webkit-animation: zoominHorizontal 50s infinite alternate;
+}
+
+
+@keyframes zoominHorizontal {
+    from {background-size: 100% }
+    to {background-size: 150%}
+}
+@keyframes zoominVertical {
+    from {background-position: top;background-size: auto 100% }
+    to {background-position: top;background-size: auto 150%}
+}
+
+
+
+.center
+{
+  background: rgba(75, 75, 250, 0.3);
+}
+.center h1{
+  text-align:center;
+  color:white;
+  font-family: 'Source Code Pro', monospace;
+  text-transform:uppercase;
+}
+
+.contactForm {
+    transition: 0.7s;
+}
+
+.rotate {
+  animation: tilt-n-move-shaking 1.5s linear;
+}
+
+@keyframes tilt-n-move-shaking {
+  0% { transform: translate(0, 0) rotate(0deg) scale(1.02); }
+  12.5% { transform: translate(3px, 3px) rotate(3deg) scale(1.02);  }
+
+  25% { transform: translate(-3px, 3px) rotate(-3deg) scale(1.02); }
+     37.5% { transform: translate(2px, 2px) rotate(2deg) scale(1.02); }
+     50% { transform: translate(-2px, 2px) rotate(-2deg) scale(1.02); }
+     62.5% { transform: translate(1px, 1px) rotate(1deg); }
+     75% { transform: translate(-1px, 1px) rotate(-1deg); }
+    87.5% { transform: translate(1px, 1px) rotate(1deg); }
+  100% { transform: translate(0, 0) rotate(0deg) scale(1.0); }
+}
+
+.opacityAnimation {
+    transition-duration: 1s;
+}

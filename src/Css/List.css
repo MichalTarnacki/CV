@@ -1,0 +1,7 @@
+.experienceList::marker {
+  content: '⥛ ';
+  color: #00BB00;
+}
+li::marker {
+  display: none;
+}

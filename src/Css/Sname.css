@@ -1,0 +1,28 @@
+.sname body {
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+}
+.sname h3 {
+    font-family: "Monaco", monospace;
+    font-size: 1.75em;
+    letter-spacing: 2px;
+    cursor: default;
+}
+
+.sname h3 span {
+    transition: 0.5s ease-out;
+}
+.sname h3:hover span:nth-child(1) {
+    margin-right: 2px;
+}
+.sname h3:hover span:nth-child(3) {
+    margin-left: 2px;
+}
+.sname h3:hover span {
+    color: #484;
+    letter-spacing: 3px;
+    text-shadow: 0 0 1em #484, 0 0 1.5em #484, 0 0 2em #484;
+}
